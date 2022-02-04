@@ -12,10 +12,16 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Services" element={<Services />} />
+        <Route path={process.env.PUBLIC_URL + "/"} element={<Home />} />
+        <Route path={process.env.PUBLIC_URL + "/About"} element={<About />} />
+        <Route
+          path={process.env.PUBLIC_URL + "/Contact"}
+          element={<Contact />}
+        />
+        <Route
+          path={process.env.PUBLIC_URL + "Services"}
+          element={<Services />}
+        />
       </Routes>
     </>
   );
