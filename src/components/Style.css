@@ -1,0 +1,88 @@
+.Container {
+  background-color: black;
+  height: 17vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  position: absolute;
+  left: 20px;
+  top: 30vh;
+  height: 20px;
+  width: 40px;
+  border: 5px solid aqua;
+  font-size: 20px;
+  color: red;
+}
+.card button {
+  padding: 10px;
+  margin: auto;
+  color: red;
+  text-align: center;
+}
+.services {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin: 0px 20px;
+  font-size: 20px;
+}
+
+.img1 {
+  position: absolute;
+  size: 100px;
+  height: 10vh;
+  top: 10px;
+  left: 70px;
+}
+h1 {
+  position: absolute;
+  color: red;
+  left: 15px;
+  top: 12vh;
+  font-size: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 100vh;
+  color: aqua;
+  background-color: black;
+}
+h2 {
+  color: red;
+}
+
+html {
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Container ul li {
+  list-style: none;
+  display: inline;
+  color: Black;
+  margin: 0px 40px;
+  font-size: 30px;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: aqua;
+}
+.Container ul {
+  display: inline;
+  color: aqua;
+}
