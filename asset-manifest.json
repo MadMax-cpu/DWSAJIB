@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/DWSAJIB/static/css/main.d60f8053.css",
+    "main.js": "/DWSAJIB/static/js/main.0d054dd1.js",
+    "static/media/contact.jpg": "/DWSAJIB/static/media/contact.03a8832b618da5cf90d3.jpg",
+    "index.html": "/DWSAJIB/index.html",
+    "main.d60f8053.css.map": "/DWSAJIB/static/css/main.d60f8053.css.map",
+    "main.0d054dd1.js.map": "/DWSAJIB/static/js/main.0d054dd1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d60f8053.css",
+    "static/js/main.0d054dd1.js"
+  ]
+}
