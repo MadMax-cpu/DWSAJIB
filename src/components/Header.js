@@ -15,16 +15,16 @@ const Header = () => {
 
         <ul>
           <li>
-            <Link to="/">HOME</Link>
+            <Link to={process.env.PUBLIC_URL + "/"}>HOME</Link>
           </li>
           <li>
-            <Link to="/Services">SERVICES</Link>
+            <Link to={process.env.PUBLIC_URL + "/Services"}>SERVICES</Link>
           </li>
           <li>
-            <Link to="/Contact">CONTACT</Link>
+            <Link to={process.env.PUBLIC_URL + "/Contact"}>CONTACT</Link>
           </li>
           <li>
-            <Link to="/About">ABOUT </Link>
+            <Link to={process.env.PUBLIC_URL + "/About"}>ABOUT </Link>
           </li>
         </ul>
 

@@ -10,7 +10,7 @@ const About = () => {
         <img src="images/profile.jpg" />
         <ul>
           <li color="red">
-            <Link to="/">HOME</Link>
+            <Link to={process.env.PUBLIC_URL + "/"}>HOME</Link>
           </li>
         </ul>
         <span>Name:MD MEHEDI AL MASUD SAJIB</span>
